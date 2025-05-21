@@ -15,15 +15,26 @@ In this project, we exploit the SMB login mechanism by sending multiple password
 ⚙️ Setup Instructions
 1. 🖥 Create a NAT Network
 Open VirtualBox > Tools > Network > NAT Networks.
+📸
 
-Click Create to make a new NAT network.
-📸 ![image](https://github.com/user-attachments/assets/f06ff4b7-acc7-4ae7-87bb-cca64a2bf616)
+![image](https://github.com/user-attachments/assets/f06ff4b7-acc7-4ae7-87bb-cca64a2bf616)
+
+![image](https://github.com/user-attachments/assets/283e0613-4033-460d-807c-f51b528c900f)
 
 
-2. 🖥 Assign NAT Network to VMs
+
+
+
+3. 🖥 Assign NAT Network to VMs
 Assign the newly created NAT network to both Windows and Kali Linux VMs via Settings > Network > Adapter 1 > Attached to: NAT Network.
 
-📸 Screenshot Placeholder
+📸 
+
+![image](https://github.com/user-attachments/assets/a4262543-4b56-4168-b37b-a564d8010d68)
+
+![image](https://github.com/user-attachments/assets/7dd978a3-caaa-4396-ba41-f9f6bea7b599)
+
+
 
 3. 🔍 Find IP Addresses
 On Windows, open Command Prompt and run:
